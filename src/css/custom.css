@@ -28,3 +28,56 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+@font-face {
+  font-family: "OppoSans";
+  src: url("https://oasis.opstatics.com/content/dam/statics/oasis/font/aem-font/OPPOSans3.0En-VF.woff2");
+}
+@font-face {
+  font-family: "SpotifySans";
+  src: url("https://encore.scdn.co/fonts/CircularSp-Book-4eaffdf96f4c6f984686e93d5d9cb325.woff2");
+}
+
+@font-face {
+  font-family: "SpotifyBold";
+  src: url("https://encore.scdn.co/fonts/CircularSpTitle-Black-3f9afb402080d53345ca1850226ca724.woff2");
+}
+
+@font-face {
+  font-family: "IntelOneMono";
+  src: url("https://raw.githubusercontent.com/intel/intel-one-mono/main/fonts/woff2/IntelOneMono-Regular.woff2");
+}
+body {
+  font-family: "OppoSans", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  /* background-color: #f9f9f9; */
+}
+
+header {
+  padding: 1rem;
+  text-align: center;
+}
+
+h1 {
+  font-family: "SpotifyBold", sans-serif;
+}
+
+h2 {
+  font-family: "SpotifySans", sans-serif;
+  font-size: 1.2rem;
+}
+
+.content {
+  padding: 2rem;
+}
+
+pre {
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+code {
+  font-family: "IntelOneMono", monospace;
+}

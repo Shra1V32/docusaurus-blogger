@@ -135,7 +135,18 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      presets: [
+        [
+          '@docusaurus/preset-classic',
+          {
+            theme: {
+              customCss: [require.resolve('./src/css/custom.css')],
+            },
+          },
+        ],
+      ],
     }),
+    
 };
 
 export default config;
