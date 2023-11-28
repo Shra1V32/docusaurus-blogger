@@ -1,4 +1,5 @@
-# Rough description of how the API works
+# API Documentation
+## Rough description of how the API works
 
 This document seeks to tell you the main endpoints of the API based on whatever I could decipher
 
