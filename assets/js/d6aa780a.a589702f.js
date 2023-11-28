@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktataplay_autoupdater=self.webpackChunktataplay_autoupdater||[]).push([[130],{5745:a=>{a.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}')}}]);
