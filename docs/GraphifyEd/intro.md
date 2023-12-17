@@ -70,5 +70,5 @@ npm run dev
 - ShadCDN for UI
 - Clerk for authentication
 - Rive for animations
-- Oracle Cloud Infrastructure for hosting
+- Oracle Cloud Infrastructure & Vercel for hosting
 
