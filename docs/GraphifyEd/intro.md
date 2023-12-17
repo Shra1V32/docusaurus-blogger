@@ -52,9 +52,11 @@ We have implemented the LMS using the following technologies:
 ## Running the script
 > Before you run the script below, you must have have npm and node installed on your system. If you don't have it, please install it from [here](https://nodejs.org/en/download/).
 * Copy the below script and paste it in the Terminal:
-```bash
+```shell
 git clone https://github.com/Shra1V32/Student-LMS.git
 cd Student-LMS
+cp .env.example .env.local
+# enter the api keys
 npm install
 npm run dev
 ```
