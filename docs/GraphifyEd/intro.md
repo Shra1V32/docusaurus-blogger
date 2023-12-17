@@ -39,6 +39,16 @@ We have implemented the LMS using the following technologies:
 - Flask APIs
 - Oracle Cloud Infrastructure
 
+## Features
+- Secure Login/Signup
+- A visually appealing landing page
+- A smooth and interactive Main Page
+- Gamified Learning
+- AI-Integrated Personalized Learning Paths
+- AI Assistance
+- Leaderboard
+- Makes user understand why they are learning a particular topic
+
 ## Running the script
 > Before you run the script below, you must have have npm and node installed on your system. If you don't have it, please install it from [here](https://nodejs.org/en/download/).
 * Copy the below script and paste it in the Terminal:
